@@ -5123,6 +5123,7 @@ void gamestate::advanceRealEvent()
     else { randomMacroThisFloor = false; }
     if (firstMapItr)
     {
+        if (!ai) mapGen->showMap(-1, -1, 1, events_bo->getBossName(bossIndexThisAct));
         firstMapItr = false;
         nextEvent = makeNextEvent('N');
         return;
