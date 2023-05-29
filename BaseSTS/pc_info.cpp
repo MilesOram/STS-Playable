@@ -96,7 +96,6 @@ void all_pc_info::initIronclad()
         deck.push_back(gm.getCardByID("Defend_ID"));
     }
     deck.push_back(gm.getCardByID("Bash_ID"));
-    deck.push_back(gm.getColourlessCardByID("Forethought_ID"));
     addRelic(gm.getRelicByID("BurningBlood_ID"));
 }
 void all_pc_info::changeDeck1()
